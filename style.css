@@ -215,61 +215,6 @@ a:hover {
     color: #1e7edc;
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
-    .intro-text h1 {
-        font-size: 2.5rem;
-    }
-
-    .intro-text p {
-        font-size: 1.2rem;
-    }
-
-    .about-section img {
-        width: 150px;
-        height: 150px;
-    }
-
-    .about-section h2 {
-        font-size: 2rem;
-    }
-
-    .about-section h3 {
-        font-size: 1.5rem;
-    }
-
-    .service-card {
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 576px) {
-    .navbar-nav {
-        text-align: center;
-    }
-
-    .navbar-brand {
-        font-size: 1.5rem;
-    }
-
-    .about-section h2,
-    .about-section h3 {
-        text-align: center;
-    }
-
-    .about-section img {
-        margin-bottom: 20px;
-    }
-
-    .social-media a {
-        font-size: 1.5rem;
-    }
-}
-
-
-
-
-
 .skills-section {
     padding: 40px 0;
     background-color: #09090991;
@@ -322,7 +267,58 @@ footer a:hover {
     color: #ddd;
 }
 
-/* Responsive Design */
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .intro-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .intro-text p {
+        font-size: 1.2rem;
+    }
+
+    .about-section img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-section h2 {
+        font-size: 2rem;
+    }
+
+    .about-section h3 {
+        font-size: 1.5rem;
+    }
+
+    .service-card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .about-section h2,
+    .about-section h3 {
+        text-align: center;
+    }
+
+    .about-section img {
+        margin-bottom: 20px;
+    }
+
+    .social-media a {
+        font-size: 1.5rem;
+    }
+}
 @media (max-width: 768px) {
     .skills-grid {
         flex-direction: column;
@@ -333,3 +329,7 @@ footer a:hover {
         width: 80%;
     }
 }
+
+
+
+
